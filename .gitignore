@@ -1,1 +1,7 @@
-./helps/client.json
+# =========================================
+# Chrome Extension & Node.js Project Ignore
+# =========================================
+
+
+# Ignore Client file
+helps/client.json
