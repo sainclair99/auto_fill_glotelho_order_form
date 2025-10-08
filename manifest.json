@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Fill Glotelho Order Form",
+  "version": "1.0",
+  "description": "Remplit automatiquement les formulaires de commande et clique sur Enregistrer.",
+  "author": "NKWNETI FONKOU Alain Sainclair",
+  "permissions": ["activeTab", "storage", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "icons/icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://glotelho.cm/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

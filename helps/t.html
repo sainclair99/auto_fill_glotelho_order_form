@@ -1,0 +1,708 @@
+<div
+  class="xl:col-span-5 lg:col-span-7 md:col-span-7 sm:col-span-7 xs:col-span-7 rounded"
+>
+  <h3 class="text-xl my-4 font-semibold">Finaliser votre commande</h3>
+  <div class="space-y-2">
+    <div class="flex flex-col gap-0">
+      <div
+        class="flex flex-col px-4 py-1.5 rounded bg-white border border-gray-200 border-t-0 border-x-0"
+      >
+        <div class="flex justify-between items-center my-3 mx-2">
+          <div class="flex items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              viewBox="0 0 24 24"
+              class="h-10 w-10 text-gray-400"
+            >
+              <path
+                fill="currentColor"
+                d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14h-2V9h-2V7h4v10z"
+              ></path>
+            </svg>
+            <h4 class="sm:text-xl xs:text-base px-2 font-medium">
+              Adresse de livraison
+            </h4>
+          </div>
+          <div style="display: none">
+            <h3
+              class="text-xs bg-gray-100 p-2 rounded cursor-pointer hover:bg-orange-500 hover:text-white flex items-center"
+            >
+              <span>Modifier</span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="1em"
+                height="1em"
+                viewBox="0 0 24 24"
+                class="w-4 h-4 ml-1"
+              >
+                <path
+                  fill="currentColor"
+                  d="M3 17.46v3.04c0 .28.22.5.5.5h3.04c.13 0 .26-.05.35-.15L17.81 9.94l-3.75-3.75L3.15 17.1c-.1.1-.15.22-.15.36zM20.71 7.04a.996.996 0 0 0 0-1.41l-2.34-2.34a.996.996 0 0 0-1.41 0l-1.83 1.83l3.75 3.75l1.83-1.83z"
+                ></path>
+              </svg>
+            </h3>
+          </div>
+        </div>
+        <div style="display: none">
+          <div class="flex flex-wrap px-4">
+            <div class="text-sm p-0 mb-1 mr-2">
+              Nom : <span class="font-medium"> </span>
+            </div>
+            <div class="text-sm p-0 mb-1 mr-2">
+              Ville : <span class="font-medium"></span>
+            </div>
+            <div class="text-sm p-0 mb-1 mr-2">
+              Quartier : <span class="font-medium"></span>
+            </div>
+            <div class="text-sm p-0 mb-1 mr-2">
+              Numéro de téléphone : <span class="font-medium"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="visible opacity-100 h-fit bg-white rounded-b-md items-center transition-all group-focus:visible group-focus:max-h-screen group-focus:opacity-100 group-focus:duration-1000"
+      >
+        <div class="bg-white px-0 rounded-b-md">
+          <div data-v-d72e2c87="" class="sm:px-4 xs:pl-0 xs:pr-4 py-1 rounded">
+            <div data-v-d72e2c87="">
+              <form data-v-d72e2c87="" data-hs-cf-bound="true">
+                <div data-v-d72e2c87="" class="sm:flex">
+                  <div
+                    data-v-d72e2c87=""
+                    class="2xl:w-1/2 xl:w-1/2 lg:w-1/2 md:w-1/2 sm:w-1/2 xs:w-full m-2"
+                  >
+                    <label
+                      data-v-d72e2c87=""
+                      class="block mb-2 ml-1 text-sm font-medium text-gray-900"
+                      for="last_name"
+                      >Nom
+                      <span data-v-d72e2c87="" class="text-red-500 text-base"
+                        >*</span
+                      ></label
+                    >
+                    <div
+                      data-v-d72e2c87=""
+                      class="relative flex h-12 w-full flex-row-reverse overflow-clip rounded"
+                    >
+                      <input
+                        data-v-d72e2c87=""
+                        type="text"
+                        id="last_name"
+                        class="peer w-full bg-gray-100 rounded-r border-l-0 border-2 border-gray-100 px-2 py-3 text-black font-medium placeholder-gray-400 text-sm xs:text-xs transition-colors duration-300 focus:ring-orange-400 focus:border-orange-400 focus:outline-none"
+                        placeholder="Jean"
+                        required=""
+                      /><label
+                        data-v-d72e2c87=""
+                        class="flex items-center gap-1 rounded-l border-2 border-r-0 border-gray-100 bg-gray-100 px-2 py-3 text-sm xs:text-xs font-medium text-gray-400 transition-colors duration-300 peer-focus:border-orange-400 peer-focus:bg-gray-100 peer-focus:text-orange-400"
+                        for="last_name"
+                        ><svg
+                          data-v-d72e2c87=""
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            data-v-d72e2c87=""
+                            fill="currentColor"
+                            d="M12 5.9a2.1 2.1 0 1 1 0 4.2a2.1 2.1 0 0 1 0-4.2m0 9c2.97 0 6.1 1.46 6.1 2.1v1.1H5.9V17c0-.64 3.13-2.1 6.1-2.1M12 4C9.79 4 8 5.79 8 8s1.79 4 4 4s4-1.79 4-4s-1.79-4-4-4m0 9c-2.67 0-8 1.34-8 4v2c0 .55.45 1 1 1h14c.55 0 1-.45 1-1v-2c0-2.66-5.33-4-8-4"
+                          ></path></svg
+                      ></label>
+                    </div>
+                    <!---->
+                  </div>
+                  <div
+                    data-v-d72e2c87=""
+                    class="2xl:w-1/2 xl:w-1/2 lg:w-1/2 md:w-1/2 sm:w-1/2 xs:w-full m-2"
+                  >
+                    <label
+                      data-v-d72e2c87=""
+                      class="block mb-2 ml-1 text-sm font-medium text-gray-900"
+                      for="first_name"
+                      >Prénom
+                      <span data-v-d72e2c87="" class="text-red-500 text-base"
+                        >*</span
+                      ></label
+                    >
+                    <div
+                      data-v-d72e2c87=""
+                      class="relative flex h-12 w-full flex-row-reverse overflow-clip rounded"
+                    >
+                      <input
+                        data-v-d72e2c87=""
+                        type="text"
+                        id="first_name"
+                        class="peer w-full bg-gray-100 rounded-r border-l-0 border-2 border-gray-100 px-2 py-3 text-black font-medium placeholder-gray-400 text-sm xs:text-xs transition-colors duration-300 focus:ring-orange-400 focus:border-orange-400 focus:outline-none"
+                        placeholder="Marc"
+                        required=""
+                      /><label
+                        data-v-d72e2c87=""
+                        class="flex items-center gap-1 rounded-l border-2 border-r-0 border-gray-100 bg-gray-100 px-2 py-3 text-sm xs:text-xs font-medium text-gray-400 transition-colors duration-300 peer-focus:border-orange-400 peer-focus:bg-gray-100 peer-focus:text-orange-400"
+                        for="first_name"
+                        ><svg
+                          data-v-d72e2c87=""
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            data-v-d72e2c87=""
+                            fill="currentColor"
+                            d="M12 5.9a2.1 2.1 0 1 1 0 4.2a2.1 2.1 0 0 1 0-4.2m0 9c2.97 0 6.1 1.46 6.1 2.1v1.1H5.9V17c0-.64 3.13-2.1 6.1-2.1M12 4C9.79 4 8 5.79 8 8s1.79 4 4 4s4-1.79 4-4s-1.79-4-4-4m0 9c-2.67 0-8 1.34-8 4v2c0 .55.45 1 1 1h14c.55 0 1-.45 1-1v-2c0-2.66-5.33-4-8-4"
+                          ></path></svg
+                      ></label>
+                    </div>
+                    <!---->
+                  </div>
+                </div>
+                <div data-v-d72e2c87="" class="sm:flex">
+                  <div
+                    data-v-d72e2c87=""
+                    class="2xl:w-1/2 xl:w-1/2 lg:w-1/2 md:w-1/2 sm:w-1/2 xs:w-full m-2"
+                  >
+                    <label
+                      data-v-d72e2c87=""
+                      for="telephone"
+                      class="block mb-2 ml-1 text-sm font-medium text-gray-900"
+                      >Numéro de téléphone
+                      <span data-v-d72e2c87="" class="text-red-500 text-base"
+                        >*</span
+                      ></label
+                    >
+                    <div
+                      data-v-d72e2c87=""
+                      class="relative flex h-12 w-full flex-row-reverse overflow-clip rounded"
+                    >
+                      <input
+                        data-v-d72e2c87=""
+                        type="text"
+                        id="tel"
+                        class="peer w-full bg-gray-100 rounded-r border-l-0 border-2 border-gray-100 px-2 py-3 text-black font-medium placeholder-gray-400 text-sm xs:text-xs transition-colors duration-300 focus:ring-orange-400 focus:border-orange-400 focus:outline-none"
+                        placeholder="Ex: 677 77 77 77"
+                        required=""
+                      /><label
+                        data-v-d72e2c87=""
+                        class="flex items-center gap-1 rounded-l border-2 border-r-0 border-gray-100 bg-gray-100 px-2 py-3 text-sm xs:text-xs font-medium text-gray-400 transition-colors duration-300 peer-focus:border-orange-400 peer-focus:bg-gray-100 peer-focus:text-orange-400"
+                        for="telephone"
+                        ><svg
+                          data-v-d72e2c87=""
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            data-v-d72e2c87=""
+                            fill="currentColor"
+                            d="M15 12h2c0-2.76-2.24-5-5-5v2c1.66 0 3 1.34 3 3m4 0h2a9 9 0 0 0-9-9v2c3.87 0 7 3.13 7 7m1 3.5c-1.25 0-2.45-.2-3.57-.57c-.1-.03-.21-.05-.31-.05c-.26 0-.51.1-.71.29l-2.2 2.2a15.045 15.045 0 0 1-6.59-6.59l2.2-2.21a.96.96 0 0 0 .25-1A11.36 11.36 0 0 1 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1c0 9.39 7.61 17 17 17c.55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1M5.03 5h1.5c.07.88.22 1.75.45 2.58l-1.2 1.21c-.4-1.21-.66-2.47-.75-3.79M19 18.97c-1.32-.09-2.6-.35-3.8-.76l1.2-1.2c.85.24 1.72.39 2.6.45z"
+                          ></path></svg
+                      ></label>
+                    </div>
+                    <!----><!---->
+                  </div>
+                  <div
+                    data-v-d72e2c87=""
+                    class="2xl:w-1/2 xl:w-1/2 lg:w-1/2 md:w-1/2 sm:w-1/2 xs:w-full m-2"
+                  >
+                    <label
+                      data-v-d72e2c87=""
+                      class="block mb-2 ml-1 text-sm font-medium text-gray-900"
+                      for="email"
+                      >Adresse électronique (Facultatif)
+                    </label>
+                    <div
+                      data-v-d72e2c87=""
+                      class="relative flex h-12 w-full flex-row-reverse overflow-clip rounded mb-0"
+                    >
+                      <input
+                        data-v-d72e2c87=""
+                        type="email"
+                        id="email"
+                        class="peer w-full bg-gray-100 rounded-r border-l-0 border-2 border-gray-100 px-2 py-3 text-black font-medium placeholder-gray-400 text-sm xs:text-xs transition-colors duration-300 focus:ring-orange-400 focus:border-orange-400 focus:outline-none"
+                        placeholder="exemple@gmail.com"
+                      /><label
+                        data-v-d72e2c87=""
+                        class="flex items-center gap-1 rounded-l border-2 border-r-0 border-gray-100 bg-gray-100 px-2 py-3 text-sm xs:text-xs font-medium text-gray-400 transition-colors duration-300 peer-focus:border-orange-400 peer-focus:bg-gray-100 peer-focus:text-orange-400"
+                        for="email"
+                        ><svg
+                          data-v-d72e2c87=""
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            data-v-d72e2c87=""
+                            fill="currentColor"
+                            d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2zm-2 0l-8 4.99L4 6zm0 12H4V8l8 5l8-5z"
+                          ></path></svg
+                      ></label>
+                    </div>
+                    <!----><!---->
+                  </div>
+                </div>
+                <div data-v-d72e2c87="" class="sm:flex">
+                  <div
+                    data-v-d72e2c87=""
+                    class="2xl:w-1/2 xl:w-1/2 lg:w-1/2 md:w-1/2 sm:w-1/2 xs:w-full m-2"
+                  >
+                    <label
+                      data-v-d72e2c87=""
+                      class="block mb-2 ml-1 text-sm font-medium text-gray-900"
+                      for="last_name"
+                      >Ville
+                      <span data-v-d72e2c87="" class="text-red-500 text-base"
+                        >*</span
+                      ></label
+                    ><select
+                      data-v-d72e2c87=""
+                      id="town"
+                      class="mb-0 border border-gray-100 bg-gray-100 border-gray-200border-gray-100 bg-gray-100 text-black font-medium text-sm rounded focus:ring-orange-300 focus:border-orange-300 block w-full p-3"
+                    >
+                      <option
+                        data-v-d72e2c87=""
+                        disabled=""
+                        selected=""
+                        class=""
+                      >
+                        Selectionnez votre ville
+                      </option>
+                      <option data-v-d72e2c87="" value="15">
+                        Abong - Mbang
+                      </option>
+                      <option data-v-d72e2c87="" value="12">Akonolinga</option>
+                      <option data-v-d72e2c87="" value="56">Ambam</option>
+                      <option data-v-d72e2c87="" value="95">Ayos</option>
+                      <option data-v-d72e2c87="" value="50">Bafang</option>
+                      <option data-v-d72e2c87="" value="7">Bafia</option>
+                      <option data-v-d72e2c87="" value="46">Bafoussam</option>
+                      <option data-v-d72e2c87="" value="48">Baham</option>
+                      <option data-v-d72e2c87="" value="39">Bamenda</option>
+                      <option data-v-d72e2c87="" value="97">Bamendjou</option>
+                      <option data-v-d72e2c87="" value="104">Bamougoum</option>
+                      <option data-v-d72e2c87="" value="99">Bana</option>
+                      <option data-v-d72e2c87="" value="75">Bandjoun</option>
+                      <option data-v-d72e2c87="" value="53">Bangangté</option>
+                      <option data-v-d72e2c87="" value="64">Bangem</option>
+                      <option data-v-d72e2c87="" value="74">Banguem</option>
+                      <option data-v-d72e2c87="" value="87">Banjock</option>
+                      <option data-v-d72e2c87="" value="101">Batcham</option>
+                      <option data-v-d72e2c87="" value="100">Batie</option>
+                      <option data-v-d72e2c87="" value="16">Batouri</option>
+                      <option data-v-d72e2c87="" value="49">Bayangam</option>
+                      <option data-v-d72e2c87="" value="102">Bazou</option>
+                      <option data-v-d72e2c87="" value="69">Belabo</option>
+                      <option data-v-d72e2c87="" value="14">Bertoua</option>
+                      <option data-v-d72e2c87="" value="103">Bikok</option>
+                      <option data-v-d72e2c87="" value="88">
+                        BOMONO-SITRACAM
+                      </option>
+                      <option data-v-d72e2c87="" value="58">Buea</option>
+                      <option data-v-d72e2c87="" value="28">Dibombari</option>
+                      <option data-v-d72e2c87="" value="85">Diboumtcha</option>
+                      <option data-v-d72e2c87="" value="68">Dimako</option>
+                      <option data-v-d72e2c87="" value="30">Djombe</option>
+                      <option data-v-d72e2c87="" value="1">Douala</option>
+                      <option data-v-d72e2c87="" value="70">Doume</option>
+                      <option data-v-d72e2c87="" value="52">Dschang</option>
+                      <option data-v-d72e2c87="" value="54">Ebolowa</option>
+                      <option data-v-d72e2c87="" value="27">Edéa</option>
+                      <option data-v-d72e2c87="" value="11">Eseka</option>
+                      <option data-v-d72e2c87="" value="65">Fontem</option>
+                      <option data-v-d72e2c87="" value="51">Foumban</option>
+                      <option data-v-d72e2c87="" value="89">FOUMBOT</option>
+                      <option data-v-d72e2c87="" value="105">Fundong</option>
+                      <option data-v-d72e2c87="" value="35">Garoua</option>
+                      <option data-v-d72e2c87="" value="18">
+                        Garoua - Boulai
+                      </option>
+                      <option data-v-d72e2c87="" value="36">Guider</option>
+                      <option data-v-d72e2c87="" value="84">Ideneau</option>
+                      <option data-v-d72e2c87="" value="22">Kaélé</option>
+                      <option data-v-d72e2c87="" value="23">Kousseri</option>
+                      <option data-v-d72e2c87="" value="92">koutaba</option>
+                      <option data-v-d72e2c87="" value="57">Kribi</option>
+                      <option data-v-d72e2c87="" value="60">Kumba</option>
+                      <option data-v-d72e2c87="" value="40">Kumbo</option>
+                      <option data-v-d72e2c87="" value="86">Kye Ossi</option>
+                      <option data-v-d72e2c87="" value="62">Limbe</option>
+                      <option data-v-d72e2c87="" value="29">Loum</option>
+                      <option data-v-d72e2c87="" value="106">Makenene</option>
+                      <option data-v-d72e2c87="" value="59">Mamfe</option>
+                      <option data-v-d72e2c87="" value="32">Manjo</option>
+                      <option data-v-d72e2c87="" value="19">Maroua</option>
+                      <option data-v-d72e2c87="" value="13">Mbalmayo</option>
+                      <option data-v-d72e2c87="" value="33">Mbanga</option>
+                      <option data-v-d72e2c87="" value="43">Mbengwi</option>
+                      <option data-v-d72e2c87="" value="47">Mbouda</option>
+                      <option data-v-d72e2c87="" value="4">Meiganga</option>
+                      <option data-v-d72e2c87="" value="34">Melong</option>
+                      <option data-v-d72e2c87="" value="9">Mfou</option>
+                      <option data-v-d72e2c87="" value="72">Mindif</option>
+                      <option data-v-d72e2c87="" value="21">Mokolo</option>
+                      <option data-v-d72e2c87="" value="6">Monatélé</option>
+                      <option data-v-d72e2c87="" value="24">Mora</option>
+                      <option data-v-d72e2c87="" value="63">Mundemba</option>
+                      <option data-v-d72e2c87="" value="66">Mutengene</option>
+                      <option data-v-d72e2c87="" value="5">
+                        Nanga - Eboko
+                      </option>
+                      <option data-v-d72e2c87="" value="96">Ndjamena</option>
+                      <option data-v-d72e2c87="" value="42">Ndop</option>
+                      <option data-v-d72e2c87="" value="3">Ngaoundéré</option>
+                      <option data-v-d72e2c87="" value="10">Ngoumou</option>
+                      <option data-v-d72e2c87="" value="107">
+                        Nguelemendouga
+                      </option>
+                      <option data-v-d72e2c87="" value="44">Nkambe</option>
+                      <option data-v-d72e2c87="" value="25">Nkongsamba</option>
+                      <option data-v-d72e2c87="" value="90">NKOTENG</option>
+                      <option data-v-d72e2c87="" value="8">Ntui</option>
+                      <option data-v-d72e2c87="" value="67">Oballa</option>
+                      <option data-v-d72e2c87="" value="31">Penja</option>
+                      <option data-v-d72e2c87="" value="38">Poli</option>
+                      <option data-v-d72e2c87="" value="93">Pouma</option>
+                      <option data-v-d72e2c87="" value="94">SAA</option>
+                      <option data-v-d72e2c87="" value="55">Sangmelima</option>
+                      <option data-v-d72e2c87="" value="91">SOUZA</option>
+                      <option data-v-d72e2c87="" value="37">Tchollire</option>
+                      <option data-v-d72e2c87="" value="61">Tiko</option>
+                      <option data-v-d72e2c87="" value="71">Waza</option>
+                      <option data-v-d72e2c87="" value="41">Wum</option>
+                      <option data-v-d72e2c87="" value="26">Yabassi</option>
+                      <option data-v-d72e2c87="" value="20">Yagoua</option>
+                      <option data-v-d72e2c87="" value="2">Yaoundé</option>
+                      <option data-v-d72e2c87="" value="17">Yokadouma</option>
+                      <!---->
+                    </select>
+                  </div>
+                  <div
+                    data-v-d72e2c87=""
+                    class="2xl:w-1/2 xl:w-1/2 lg:w-1/2 md:w-1/2 sm:w-1/2 xs:w-full m-2"
+                  >
+                    <label
+                      data-v-d72e2c87=""
+                      class="block mb-2 ml-1 text-sm font-medium text-gray-900"
+                      for="last_name"
+                      >Quartier
+                      <span data-v-d72e2c87="" class="text-red-500 text-base"
+                        >*</span
+                      ></label
+                    ><!----><input
+                      data-v-d72e2c87=""
+                      type="text"
+                      id="last_name"
+                      class="border border-gray-100 bg-gray-100 border-gray-100 border-gray-100 bg-gray-100 text-black font-medium text-sm rounded focus:ring-orange-400 focus:border-orange-400 w-full p-3"
+                      placeholder="Akwa"
+                      required=""
+                    /><!---->
+                  </div>
+                </div>
+                <div
+                  data-v-d72e2c87=""
+                  class="mx-3 md:mt-4 mt-8 font-medium md:text-md text-[1rem] leading-5"
+                >
+                  Informations complémentaires (facultatif)
+                </div>
+                <div data-v-d72e2c87="" class="sm:flex mb-2">
+                  <div
+                    data-v-d72e2c87=""
+                    class="2xl:w-1/2 xl:w-1/2 lg:w-1/2 md:w-1/2 sm:w-1/2 xs:w-full m-2"
+                  >
+                    <label
+                      data-v-d72e2c87=""
+                      for="telephone2"
+                      class="block mb-2 ml-1 text-sm font-medium text-gray-900"
+                      >Entrer un 2ème numéro de téléphone ou celui d'un
+                      proche</label
+                    >
+                    <div
+                      data-v-d72e2c87=""
+                      class="relative flex h-12 w-full flex-row-reverse overflow-clip rounded"
+                    >
+                      <input
+                        data-v-d72e2c87=""
+                        class="peer w-full bg-gray-100 rounded-r border-l-0 border-2 border-gray-100 px-2 py-3 text-black font-medium placeholder-gray-400 text-sm xs:text-xs transition-colors duration-300 focus:ring-orange-400 focus:border-orange-400 focus:outline-none"
+                        type="number"
+                        name="telephone2"
+                        id="telephone2"
+                        placeholder="Ex: 697 77 77 77"
+                      /><label
+                        data-v-d72e2c87=""
+                        class="flex items-center gap-1 rounded-l border-2 border-r-0 border-gray-100 bg-gray-100 px-2 py-3 text-sm xs:text-xs font-medium text-gray-400 transition-colors duration-300 peer-focus:border-orange-400 peer-focus:bg-gray-100 peer-focus:text-orange-400"
+                        for="telephone2"
+                        ><svg
+                          data-v-d72e2c87=""
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            data-v-d72e2c87=""
+                            fill="currentColor"
+                            d="M15 12h2c0-2.76-2.24-5-5-5v2c1.66 0 3 1.34 3 3m4 0h2a9 9 0 0 0-9-9v2c3.87 0 7 3.13 7 7m1 3.5c-1.25 0-2.45-.2-3.57-.57c-.1-.03-.21-.05-.31-.05c-.26 0-.51.1-.71.29l-2.2 2.2a15.045 15.045 0 0 1-6.59-6.59l2.2-2.21a.96.96 0 0 0 .25-1A11.36 11.36 0 0 1 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1c0 9.39 7.61 17 17 17c.55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1M5.03 5h1.5c.07.88.22 1.75.45 2.58l-1.2 1.21c-.4-1.21-.66-2.47-.75-3.79M19 18.97c-1.32-.09-2.6-.35-3.8-.76l1.2-1.2c.85.24 1.72.39 2.6.45z"
+                          ></path></svg
+                      ></label>
+                    </div>
+                  </div>
+                  <div
+                    data-v-d72e2c87=""
+                    class="2xl:w-1/2 xl:w-1/2 lg:w-1/2 md:w-1/2 sm:w-1/2 xs:w-full m-2"
+                  >
+                    <label
+                      data-v-d72e2c87=""
+                      for="whatsappTelephone"
+                      class="block mb-2 ml-1 text-sm font-medium text-gray-900"
+                      >Contact WhatsApp</label
+                    >
+                    <div
+                      data-v-d72e2c87=""
+                      class="relative flex h-12 w-full flex-row-reverse overflow-clip rounded"
+                    >
+                      <input
+                        data-v-d72e2c87=""
+                        class="peer w-full bg-gray-100 rounded-r border-l-0 border-2 border-gray-100 px-2 py-3 text-black font-medium placeholder-gray-400 text-sm xs:text-xs transition-colors duration-300 focus:ring-orange-400 focus:border-orange-400 focus:outline-none"
+                        type="number"
+                        name="whatsappTelephone"
+                        id="whatsappTelephone"
+                        placeholder="Ex: 697 77 77 77"
+                      /><label
+                        data-v-d72e2c87=""
+                        class="flex items-center gap-1 rounded-l border-2 border-r-0 border-gray-100 bg-gray-100 px-2 py-3 text-sm xs:text-xs font-medium text-gray-400 transition-colors duration-300 peer-focus:border-orange-400 peer-focus:bg-gray-100 peer-focus:text-green-400"
+                        for="whatsappTelephone"
+                        ><svg
+                          data-v-d72e2c87=""
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="26"
+                          height="26"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            data-v-d72e2c87=""
+                            fill="currentColor"
+                            d="M19.05 4.91A9.816 9.816 0 0 0 12.04 2c-5.46 0-9.91 4.45-9.91 9.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91c0-2.65-1.03-5.14-2.9-7.01m-7.01 15.24c-1.48 0-2.93-.4-4.2-1.15l-.3-.18l-3.12.82l.83-3.04l-.2-.31a8.264 8.264 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24c2.2 0 4.27.86 5.82 2.42a8.183 8.183 0 0 1 2.41 5.83c.02 4.54-3.68 8.23-8.22 8.23m4.52-6.16c-.25-.12-1.47-.72-1.69-.81c-.23-.08-.39-.12-.56.12c-.17.25-.64.81-.78.97c-.14.17-.29.19-.54.06c-.25-.12-1.05-.39-1.99-1.23c-.74-.66-1.23-1.47-1.38-1.72c-.14-.25-.02-.38.11-.51c.11-.11.25-.29.37-.43s.17-.25.25-.41c.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31c-.22.25-.86.85-.86 2.07c0 1.22.89 2.4 1.01 2.56c.12.17 1.75 2.67 4.23 3.74c.59.26 1.05.41 1.41.52c.59.19 1.13.16 1.56.1c.48-.07 1.47-.6 1.67-1.18c.21-.58.21-1.07.14-1.18s-.22-.16-.47-.28"
+                          ></path></svg
+                      ></label>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  data-v-d72e2c87=""
+                  class="flex justify-end mr-2 xs:-mr-2 xs:pl-2"
+                >
+                  <button
+                    data-v-d72e2c87=""
+                    type="submit"
+                    class="text-white bg-glotelho-blue hover:bg-orange-400 focus:outline-none font-medium rounded text-sm w-full sm:w-auto px-8 py-2.5 text-center transition mb-2"
+                  >
+                    Enregistrer et continuer
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-col gap-0">
+      <div
+        class="flex flex-col px-4 py-1.5 rounded bg-white border border-gray-200 border-t-0 border-x-0"
+      >
+        <div class="flex justify-between items-center my-3 mx-2">
+          <div class="flex items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              viewBox="0 0 24 24"
+              class="h-10 w-10 text-gray-400"
+            >
+              <path
+                fill="currentColor"
+                d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-4 8a2 2 0 0 1-2 2h-2v2h4v2H9v-4a2 2 0 0 1 2-2h2V9H9V7h4a2 2 0 0 1 2 2v2z"
+              ></path>
+            </svg>
+            <h4 class="sm:text-xl xs:text-base px-2 font-medium">
+              Détail de la commande
+            </h4>
+          </div>
+          <div style="display: none">
+            <h3
+              class="text-xs bg-gray-100 p-2 rounded cursor-pointer hover:bg-orange-500 hover:text-white flex items-center"
+            >
+              <span>Modifier</span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="1em"
+                height="1em"
+                viewBox="0 0 24 24"
+                class="w-4 h-4 ml-1"
+              >
+                <path
+                  fill="currentColor"
+                  d="M3 17.46v3.04c0 .28.22.5.5.5h3.04c.13 0 .26-.05.35-.15L17.81 9.94l-3.75-3.75L3.15 17.1c-.1.1-.15.22-.15.36zM20.71 7.04a.996.996 0 0 0 0-1.41l-2.34-2.34a.996.996 0 0 0-1.41 0l-1.83 1.83l3.75 3.75l1.83-1.83z"
+                ></path>
+              </svg>
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div
+        class="invisible opacity-0 h-0 overflow-hidden bg-white rounded-b-md items-center transition-all group-focus:visible group-focus:max-h-screen group-focus:opacity-100 group-focus:duration-1000"
+      >
+        <div class="bg-white px-4 rounded-b-md">
+          <div>
+            <div class="flex flex-row justify-between">
+              <h3
+                class="flex flex-wrap text-md font-semibold px-4 sm:pt-4 xs:pt-3"
+              >
+                Resumé de commande
+              </h3>
+            </div>
+            <div class="flex lg:flex-row md:flex-col sm:flex-col xs:flex-col">
+              <div
+                class="flex flex-col lg:w-2/3 md:w-full sm:w-full xs:w-full lg:order-1 md:order-2 sm:order-2 xs:order-2"
+              >
+                <div>
+                  <div>
+                    <div
+                      class="flex items-center rounded border-b-5 border-t-0 border-x-0 border border-gray-100 p-3"
+                    >
+                      <img
+                        class="max-h-[60px] w-auto"
+                        alt=""
+                        data-src="https://site.glotelho.cm/media/catalog/product/cache/3d5322e2293df1ca8e64a115bdb04917//x/i/xiaomi_redmi_15c_-_b.jpg"
+                        src="https://site.glotelho.cm/media/catalog/product/cache/3d5322e2293df1ca8e64a115bdb04917//x/i/xiaomi_redmi_15c_-_b.jpg"
+                        lazy="loaded"
+                      />
+                      <div
+                        class="flex flex-col justify-between px-4 2xl:py-1 xl:py-0"
+                      >
+                        <h3 class="text-xs font-medium">
+                          Xiaomi Redmi 15C – 128 Go – 4Go RAM - 6.9" – 50MP/8MP
+                          – 6000mAh – Garantie 12 mois + Xiaomi water Bottle +
+                          45 Go de data Orange offerts
+                        </h3>
+                        <span class="text-sm">Qty : <span>2</span></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 class="text-md font-semibold px-4 sm:pt-5 sm:pb-2 xs:py-3">
+                Mode de livraison
+              </h3>
+              <div class="flex bg-white justify-center">
+                <svg
+                  aria-hidden="true"
+                  class="w-578 h-8 mr-2 ml-2 text-gray-200 animate-spin dark:text-gray-600 fill-blue-600"
+                  viewBox="0 0 100 101"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M100 50.5908C100 78.2051 77.6142 100.591 50 100.591C22.3858 100.591 0 78.2051 0 50.5908C0 22.9766 22.3858 0.59082 50 0.59082C77.6142 0.59082 100 22.9766 100 50.5908ZM9.08144 50.5908C9.08144 73.1895 27.4013 91.5094 50 91.5094C72.5987 91.5094 90.9186 73.1895 90.9186 50.5908C90.9186 27.9921 72.5987 9.67226 50 9.67226C27.4013 9.67226 9.08144 27.9921 9.08144 50.5908Z"
+                    fill="currentColor"
+                  ></path>
+                  <path
+                    d="M93.9676 39.0409C96.393 38.4038 97.8624 35.9116 97.0079 33.5539C95.2932 28.8227 92.871 24.3692 89.8167 20.348C85.8452 15.1192 80.8826 10.7238 75.2124 7.41289C69.5422 4.10194 63.2754 1.94025 56.7698 1.05124C51.7666 0.367541 46.6976 0.446843 41.7345 1.27873C39.2613 1.69328 37.813 4.19778 38.4501 6.62326C39.0873 9.04874 41.5694 10.4717 44.0505 10.1071C47.8511 9.54855 51.7191 9.52689 55.5402 10.0491C60.8642 10.7766 65.9928 12.5457 70.6331 15.2552C75.2735 17.9648 79.3347 21.5619 82.5849 25.841C84.9175 28.9121 86.7997 32.2913 88.1811 35.8758C89.083 38.2158 91.5421 39.6781 93.9676 39.0409Z"
+                    fill="currentFill"
+                  ></path></svg
+                ><span class="sr-only">Loading...</span>
+              </div>
+            </div>
+            <div class="flex justify-end md:mx-3 sm:mx-4 xs:mx-4 py-1">
+              <button
+                class="text-white bg-glotelho-blue hover:bg-orange-400 focus:outline-none font-medium rounded text-sm w-full sm:w-auto px-8 py-2.5 text-center transition mb-2"
+                type="submit"
+              >
+                Valider
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="group flex flex-col gap-0">
+      <div
+        class="flex items-center px-4 py-1.5 rounded bg-white border border-gray-200 border-t-0 border-x-0"
+      >
+        <div class="flex items-center my-3 mx-2 py-1">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="1em"
+            height="1em"
+            viewBox="0 0 24 24"
+            class="h-10 w-10 text-gray-400"
+          >
+            <path
+              fill="currentColor"
+              d="M19 3H5.01c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2H19c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-3.99 7.5c0 .83-.67 1.5-1.5 1.5c.83 0 1.5.67 1.5 1.5V15a2 2 0 0 1-2 2H10c-.55 0-1-.45-1-1s.45-1 1-1h3.01L13 13h-1c-.55 0-1-.45-1-1s.45-1 1-1h1l.01-2H10c-.55 0-.99-.45-.99-1s.44-1 .99-1h3.01c1.1 0 2 .9 2 2v1.5z"
+            ></path>
+          </svg>
+          <h4 class="sm:text-xl xs:text-base px-2 font-medium">
+            Payment Method
+          </h4>
+        </div>
+      </div>
+      <!---->
+      <div
+        class="invisible opacity-0 max-h-0 bg-white rounded-b-md items-center transition-all group-focus:visible group-focus:max-h-screen group-focus:opacity-100 group-focus:duration-1000"
+      >
+        <div class="bg-white lg:px-8 md:px-4 pt-4 rounded-b-md">
+          <div>
+            <form action="" data-hs-cf-bound="true">
+              <div class="lg:flex md:block justify-between pb-4"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="sm:px-4 xs:pl-0 xs:pr-4 pt-4 bg-white rounded">
+        <form data-hs-cf-bound="true">
+          <div class="sm:flex">
+            <div
+              class="2xl:w-1/3 xl:w-1/3 lg:w-1/3 md:w-1/3 sm:w-1/3 xs:w-full m-2"
+            >
+              <label
+                for="saler_code"
+                class="block mb-2 ml-1 text-sm font-medium text-gray-900"
+                >Code Vendeur (Facultatif)
+              </label>
+              <div class="flex">
+                <input
+                  type="text"
+                  id="saler_code"
+                  class="border border-gray-100 bg-gray-100 border-gray-100 border-gray-100 bg-gray-100 text-gray-900 text-sm rounded focus:ring-orange-400 focus:border-orange-400 w-full p-3"
+                  placeholder="XDCFR"
+                />
+              </div>
+            </div>
+            <div
+              class="2xl:w-2/3 xl:w-2/3 lg:w-2/3 md:w-2/3 sm:w-2/3 xs:w-full m-2"
+            >
+              <label
+                for="order_comment"
+                class="block mb-2 ml-1 text-sm font-medium text-gray-900"
+                >Ajouter un commentaire</label
+              ><textarea
+                rows="6"
+                id="order_comment"
+                class="border border-gray-100 bg-gray-100 border-gray-100 border-gray-100 bg-gray-100 text-gray-900 text-sm rounded focus:ring-orange-400 focus:border-orange-400 w-full p-3"
+                placeholder="Votre commentaire"
+              ></textarea>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

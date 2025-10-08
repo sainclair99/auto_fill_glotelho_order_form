@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Remplissage automatique</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        padding: 10px;
+        width: 250px;
+      }
+      button {
+        margin: 5px 0;
+        padding: 8px;
+        width: 100%;
+        border: none;
+        border-radius: 5px;
+        background: #4285f4;
+        color: white;
+        cursor: pointer;
+      }
+      button:hover {
+        background: #3367d6;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>
+      <img src="icons/icon128.jpg" width="40px" /> Commande Glotelho rapide
+    </h3>
+    <button id="importJson">📂 Importer JSON</button>
+    <button id="fillForm">⚡Remplir automatiquement</button>
+    <input
+      type="file"
+      id="fileInput"
+      accept=".json,.csv"
+      style="display: none"
+    />
+    <p id="status"></p>
+    <script src="popup.js"></script>
+  </body>
+</html>

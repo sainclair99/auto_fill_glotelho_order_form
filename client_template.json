@@ -1,0 +1,12 @@
+{
+  "last_name": "John",
+  "first_name": "Doe",
+  "tel": "6xxxxxxxx",
+  "email": "xxxxxxxxxxxx@example.com",
+  "town": "1",
+  "quartier": "Bonaberi - APICAM",
+  "telephone2": "6xxxxxxxx",
+  "whatsappTelephone": "6xxxxxxxx",
+  "deliverAgent": "retrait3chub",
+  "paymentMethod": "cashondelivery"
+}
